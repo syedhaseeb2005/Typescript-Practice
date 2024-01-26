@@ -41,4 +41,4 @@ const findMaxValue = (number) => {
     const Maxnum = Math.max(...number);
     console.log("MaxNum", Maxnum);
 };
-findMaxValue([1, 2, 3, 4, 5, 99]);
+findMaxValue([1, 2, 3, 4, 5]);
