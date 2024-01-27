@@ -15,11 +15,12 @@ const number2:number[] = new Array(1, 2, 3, 4, 5);
 
 // use the Array.of method
 
-const names:string[] = Array.of("syed","haseeb");
-console.log(names[1]);
+// const names:string[] = Array.of("syed","haseeb");
+// console.log(names[1]);
 // console.log(names.length);
 
 
-
 const value:boolean[] = [true, false, true]
-console.log(value);
+// console.log(value);
+
+

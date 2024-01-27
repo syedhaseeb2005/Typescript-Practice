@@ -36,7 +36,7 @@ const calculateAverage = (number) => {
     return average;
 };
 (calculateAverage([1, 2, 3, 4, 5]));
-// Q2 Create a fucntion call findMaxValue that takes an array of numbers as a paramter and return the maximum value in the array.
+// Q2 Create a function call findMaxValue that takes an array of numbers as a paramter and return the maximum value in the array.
 const findMaxValue = (number) => {
     const Maxnum = Math.max(...number);
     console.log("MaxNum", Maxnum);
