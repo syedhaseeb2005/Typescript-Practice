@@ -24,9 +24,10 @@ const evenNumber = numbers.filter((number) => number % 2 === 0);
 // Q2: Filtering the number greater than 3
 const DivideBy3 = numbers.filter((number) => number > 3);
 // console.log(DivideBy3);
-// Q3 Filtering the number greater than 5
+// Q3 Filtering the name word greater than 5
 const Names = ["haseeb", "ayan", "shayan", "ahmed"];
 const arr = Names.filter((name) => name.length > 5);
 // console.log(arr);
+// Q4 filtering the name start with letter a  
 const StartletA = Names.filter((name) => name.startsWith("a"));
 console.log(StartletA);
