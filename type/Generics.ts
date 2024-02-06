@@ -16,10 +16,12 @@ const booleanResult = logandReturn<boolean>(true);
 
 // Practice Generics
 
-function addValue<T>(value: T): T {
-  return value;
+function addValue<T , U>(a :T, b : U) {
+  console.log(typeof a);
+  console.log(typeof b);
+  
 }
-const addnumber = addValue<number>(2 + 2);
-const addstring = addValue<string>("syed" + "haseeb");
-console.log(addnumber);
-console.log(addstring);
+const addnumber = addValue<number , string>(5 , "haseeb");
+const addstring = addValue("haseeb" , 5);
+// console.log(addnumber);
+// console.log(addstring);

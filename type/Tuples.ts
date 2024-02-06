@@ -12,8 +12,7 @@ const person2: personInfo = ["Ayan", 14, false];
 const displayPersonInfo = (person: personInfo) => {
   const [name, age, hasDriveLicense] = person;
   console.log(
-    `Name: ${name}, Age: ${age}, Has Drive License: ${
-      hasDriveLicense ? "Yes" : "NO"
+    `Name: ${name}, Age: ${age}, Has Drive License: ${hasDriveLicense ? "Yes" : "NO"
     }`
   );
 };

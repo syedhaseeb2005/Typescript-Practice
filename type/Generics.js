@@ -1,20 +1,20 @@
-"use strict";
 console.log("Intro to Generics!");
 // Generics in Ts allow you to create reusable component or function that can work with multipledata types.
 function logandReturn(value) {
     return value;
 }
-const numberResult = logandReturn(42);
-const stringResult = logandReturn("Haseeb");
-const booleanResult = logandReturn(true);
+var numberResult = logandReturn(42);
+var stringResult = logandReturn("Haseeb");
+var booleanResult = logandReturn(true);
 // console.log(numberResult);
 // console.log(stringResult);
 // console.log(booleanResult);
 // Practice Generics
-function addValue(value) {
-    return value;
+function addValue(a, b) {
+    console.log(typeof a);
+    console.log(typeof b);
 }
-const addnumber = addValue(2 + 2);
-const addstring = addValue("syed" + "haseeb");
-console.log(addnumber);
-console.log(addstring);
+var addnumber = addValue(5, "haseeb");
+var addstring = addValue("haseeb", 5);
+// console.log(addnumber);
+// console.log(addstring);
